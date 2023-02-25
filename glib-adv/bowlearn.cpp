@@ -956,7 +956,7 @@ void TBowLearn::TrainWinnowMd(const PBowDocBs& BowDocBs,
     }
   }
 */
-// used for testing paramatere range
+// used for testing parametere range
 //  fprintf(OutFile,
 //   "%0.2f, %0.2f, %0.2f, %0.2f, %0.2f\n", Beta, PrevPrec, PrevRec, PrevF1, PrevAcc);
 }
@@ -1040,7 +1040,7 @@ void TBowLearn::TestWinnowMd(const PBowDocBs& BowDocBs,
   double Rec=(TruePos/double(TruePos+FalseNeg));
   double F1=(2*Prec*Rec/(Prec+Rec));
   printf("Precision %0.2f%%, Recall %0.2f%%, F1 %0.2f, Accuracy %0.2f%%\n", Prec, Rec, F1, Acc);
-// used for testing paramatere range
+// used for testing parametere range
 //  fprintf(ErrFile, "%0.2f, %0.2f, %0.2f, %0.2f, %0.2f\n", Beta, Prec, Rec, F1, Acc);
   }
 }
@@ -1116,7 +1116,7 @@ void TBowLearn::TrainPerceptronMd(const PBowDocBs& BowDocBs,
     }
   }
 */
-// used for testing paramatere range
+// used for testing parametere range
 //  fprintf(OutFile,
 //   "%0.2f, %0.2f, %0.2f, %0.2f, %0.2f\n", Beta, PrevPrec, PrevRec, PrevF1, PrevAcc);
 //  fprintf(OutFile,
@@ -1195,7 +1195,7 @@ void TBowLearn::TestPerceptronMd(const PBowDocBs& BowDocBs,
   double Rec=(TruePos/double(TruePos+FalseNeg));
   double F1=(2*Prec*Rec/(Prec+Rec));
   printf("Precision %0.2f, Recall %0.2f, F1: %0.2f, Accuracy %0.2f%%\n", Prec, Rec, F1, Acc);
-// used for testing paramatere range
+// used for testing parametere range
 //  fprintf(ErrFile, "%0.2f, %0.2f, %0.2f, %0.2f, %0.2f\n", Beta, Prec, Rec, F1, Acc);
   }
 }
